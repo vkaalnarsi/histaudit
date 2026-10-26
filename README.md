@@ -9,6 +9,23 @@
 - 单文件，`histaudit.py` 拷走就能用
 - **只读不执行**：它从不运行历史里的任何一条命令
 
+<!-- ipos:install -->
+## 安装
+
+零依赖，Python 3.10+ 即可：
+
+```bash
+pip install vkaalnarsi-histaudit
+```
+
+装完直接用命令名调用：
+
+```bash
+histaudit --help
+```
+
+也可以不用安装，直接把 `histaudit.py` 拷走用——它只依赖标准库。
+
 ## 为什么需要它
 
 翻自己的历史时，通常会发现两件不太一样的事：
